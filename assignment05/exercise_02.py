@@ -126,6 +126,7 @@ class Account:
         print("Transfer successful")
         self.display_balance()
 
+# main method to run the program
 if __name__ == '__main__':
     account = Account()
     account.login()

@@ -106,6 +106,7 @@ class Employees:
             print("{:<5} {:<15} {:<10} {:<10}".format(i.id, i.name, i.gender, i.salary))
         print("--------------------------------------------")
 
+# main program start here
 if __name__ == '__main__':
     employees = Employees()
     while True:
